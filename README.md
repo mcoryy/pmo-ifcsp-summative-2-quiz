@@ -23,7 +23,7 @@ This design shows the user journey of the quiz, from entering a valid name to an
 
 This wireframe was used to plan the colour schemes, screen layout and navigation flow before implementation. It focuses on all key elements of the quiz including colour scheme, structure, flow, user interaction and the sequence of questions.
 
-![Figure 1: Wireframe Design (My own design made using Figma)](docs_assets/wireframe.png)
+<img width="1522" height="837" alt="Screenshot 2026-09-11 at 18 18 48" src="https://github.com/user-attachments/assets/24d12399-5ac6-45f5-a78e-82e00759a5d8" />
 
 **Figure 1:** Wireframe Design (My own design made using Figma)
 
@@ -78,9 +78,9 @@ This wireframe was used to plan the colour schemes, screen layout and navigation
 **Code Design Documentation:**
 **Figure 2** displays a class design. This is an understandable, structured figure for the key components that make up this quiz application, from the main QuizApp to the smaller components like QuizView and QuizAttempts that make up the full application.
 
-![Figure 2: Class Design (My own design made using Draw.io)](docs_assets/class_design.png)
+<img width="923" height="515" alt="Screenshot 2026-09-11 at 20 14 34" src="https://github.com/user-attachments/assets/b998116c-f76d-45b7-a55c-01cd35753bbb" />
 
-**Figure 1:** Class Design (My own design made using Draw.io)
+**Figure 2:** Class Design (My own design made using Draw.io)
 
 ## Development
 This application is structured across six Python modules, each handling different operations.
@@ -234,7 +234,6 @@ The main file also provides all the messages to the user including the final com
 ```
 text=f"Well Done {display_name}!\n\nYou scored: {final_score} / {total_q}"
 ```
-, for example.
 
 ## Testing
 To ensure the Project Management Quiz App is reliable and user friendly, manual and automated unit testing were essential. This approach covered both the GUI and the coding logic.
@@ -258,7 +257,7 @@ Justification: Automated testing is quick, identifiable and issues can be easily
 | Complete Quiz | Answer all 10 questions | App moves to the final score screen showing the score and "QUIT" button | App moves to the final score screen showing the score and "QUIT" button | Pass |
 | CSV file accuracy | Complete quiz and check the CSV file | ```quiz_results.csv``` updates with a new row with the name, score and timestamp | ```quiz_results.csv``` updates with a new row with the name, score and timestamp | Pass |
 
-![Figure 3: Error message displayed successfully](docs_assets/figure3.png)
+<img width="994" height="779" alt="Screenshot 2026-09-11 at 21 57 45" src="https://github.com/user-attachments/assets/f6e812c8-421a-46ab-86e3-bef5b4d24bf2" />
 
 **Figure 3:** Automated Unit Testing Error (Own coding)
 
@@ -267,7 +266,7 @@ While running the Automated Unit Testing tests, the results were not fitering co
 
 As can be seen in Figure 4, ```finish_quiz``` was triggered but no results loaded through to the CSV file.
 
-![Figure 4: Automated Unit Testing Error](docs_assets/figure4.png)
+<img width="1186" height="790" alt="Screenshot 2026-09-11 at 21 58 42" src="https://github.com/user-attachments/assets/f2169469-4862-472c-ab72-cfaa89e94e9b" />
 
 **Figure 4:** Automated Unit Testing Error (Own coding)
 
@@ -285,7 +284,7 @@ This part of the code was essential to saving the information successfully and r
 
 Figure 5 below shows the quiz running successfully and the results and timestamp loaded into the CSV file after a successful test:
 
-![Figure 5: Automated Unit Testing Error](docs_assets/figure5.png)
+<img width="1192" height="796" alt="Screenshot 2026-09-11 at 22 04 35" src="https://github.com/user-attachments/assets/834e59bc-a28d-45db-8e8a-b6cb2278fe38" />
 
 **Figure 5:** Automated Unit Testing Fix (Own coding)
 
