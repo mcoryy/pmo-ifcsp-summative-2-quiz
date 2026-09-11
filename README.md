@@ -321,15 +321,15 @@ Developing this application has been great to understand ```tkinter```, basic so
 
 **What Went Well:**
 
-    - Modular Architecture: Splitting the code across multiple Python and CSV files makes the code much easier to edit, troubleshoot, de-bug and interpret. This is useful for testers and developers as the code is more organised and well-defined.
-    - Structured Data Storage: Resolving the results CSV file error was a big milestone. The application now reliably pushes names, timestamps and scores into this easy-to-understand file which can be extracted to Google Sheets or equivalent.
-    - Hint Dropdowns: The hints button works as intended which was an important element of the quiz. It adds an extra dimension to make the experience better for quiz-takers. 
-    - User Interface: The GUI is clear to understand, where mistakes are inputted, clear guidance is presented to the user and any error's can be overcome efficiently.
+- Modular Architecture: Splitting the code across multiple Python and CSV files makes the code much easier to edit, troubleshoot, de-bug and interpret. This is useful for testers and developers as the code is more organised and well-defined.
+- Structured Data Storage: Resolving the results CSV file error was a big milestone. The application now reliably pushes names, timestamps and scores into this easy-to-understand file which can be extracted to Google Sheets or equivalent.
+- Hint Dropdowns: The hints button works as intended which was an important element of the quiz. It adds an extra dimension to make the experience better for quiz-takers. 
+- User Interface: The GUI is clear to understand, where mistakes are inputted, clear guidance is presented to the user and any error's can be overcome efficiently.
 
 **Even Better If...**
 
-    - Feedback: The application would be better if feedback was provided per incorrect question answered, like a pop-up before moving on to the next question.
-    - Results Analysis: The CSV file only records the basic information, which is easy to understand, but it could be developed through the addition of trend analysis.
-    - Past Performance Dashboard: Where an interface could recognise a user that has taken the test before and remind them of their previous scores before they re-take the test. This would help understand if and where improvements are being made over the application.
+- Feedback: The application would be better if feedback was provided per incorrect question answered, like a pop-up before moving on to the next question.
+- Results Analysis: The CSV file only records the basic information, which is easy to understand, but it could be developed through the addition of trend analysis.
+- Past Performance Dashboard: Where an interface could recognise a user that has taken the test before and remind them of their previous scores before they re-take the test. This would help understand if and where improvements are being made over the application.
 
 In conclusion, this quiz is a useful tool to assess whether employees are ready for the practicalities of the Project Management office over more technical or developmental roles. This tool effectively supports hiring staff while providing a clear and easy experience for users. It provides a good foundational assessment with lots of room for improvement in the future.
