@@ -249,6 +249,7 @@ Justification: Automated testing is quick, identifiable and issues can be easily
 **Testing Outcomes:**
 **Manual Testing Outcomes**
 | Test Case | Test Data | Expected Outcome | Actual Outcome | Pass/Fail |
+|-----------|-----------|------------------|----------------|-----------|
 | Empty Name Test | " " (blank) | Error message: "Name cannot be empty!" | Error message appeared on screen (figure 3) | Pass |
 | Short Name Test | "X" | Error message: "Name must be between 2 and 50 characters long!" | Error message appeared on screen | Pass |
 | Special Characters Name Test | "B0b!" | Error message: "Name cannot contain numbers or special characters like '!, ?, &'!" | Error message appeared on screen | Pass |
