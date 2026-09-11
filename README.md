@@ -293,6 +293,7 @@ Eventually, all manual and automated tests were passed successfully!
 
 ## Documentation
 **User Documentation**
+
 Welcome to the Project Management Office Quiz Application. This guide outlines how users and staff members can use this quiz during the onboarding process.
 
 1. Launch the application through ```main.py``` file.
@@ -304,6 +305,7 @@ Welcome to the Project Management Office Quiz Application. This guide outlines h
 7. When finished, click the "QUIT" button to exit and close the program.
 
 **Testing Documentation**
+
 This application was built in Python using the ```tkinter``` GUI framework. The application follows a modular structure across three python scripts.
     - load_questions.py
     - quiz_hints.py
